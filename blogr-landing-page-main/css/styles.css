@@ -70,30 +70,53 @@ main {
 
 .buttons {
     display: flex;
-    justify-content:space-between;
-    margin: 3em 2em 8em 2em;
+    justify-content:center;
+    margin: 3em 1em 8em 1em;
+}
+
+.button-01 {
+    display: flex;
+    align-items: center;
+    background-color:#ff8e93cb;
+    border-radius: 5em;
+    font-family: overpass;
+    font-weight: bolder;
+    margin: 0 1em 0 0;
 }
 
 .button-01 button {
     background-color: transparent;
     color:white;
-    border: solid 1px;
+    border: none;
     padding:1rem 1rem;
     font-size: 18px;
     border-radius: 2em;
     font-family: overpass;
     font-weight: bolder;
+    cursor: pointer;
 }
+
+.button-02 {
+    display: flex;
+    align-items: center;
+    background-color:#ff8e93cb;
+    border-radius: 5em;
+    font-family: overpass;
+    font-weight: bolder;
+    margin: 0 1em 0 0;
+}
+
 
 .button-02 button {
     background-color: transparent;
     color:white;
-    border: solid 1px;
+    border: none;
     padding:1rem 1rem;
     font-size: 18px;
     border-radius: 2em;
     font-family: overpass;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 button:hover {
@@ -362,8 +385,15 @@ footer {
     display: none;
 }
 
+.login {
+    display: none;
+}
 
-@media screen and (min-width: 725px) {
+.sign-up {
+    display: none;
+}
+
+@media screen and (min-width: 925px) {
 
     .burger {
         display: none;
@@ -372,7 +402,7 @@ footer {
     main {
         padding: 0 8em 0 8em;
     }
-    
+
     .nav-links {
         width:50%;
         position: absolute;
@@ -406,5 +436,103 @@ footer {
     .arrow-01 {
         margin: 0 2em 0 0.5em;
     }
+
+    .buttons-desktop {
+        display: flex;
+    }
+
+    .login {
+        display: flex;
+        align-items: center;
+        color:white;
+        border:none;
+        background-color: transparent;
+        font-family: overpass;
+        font-size: 16px;
+        padding: 0 1em 0 0;
+        opacity: 1;
+    }
+
+    .logo img {
+        cursor: pointer;
+    }
+
+    .sign-up {
+        display: flex;
+        align-items: center;
+        color: white;
+        background-color:#ff8e93cb;
+        padding: 0.5em 1.5em;
+        border-radius: 5em;
+        font-family: overpass;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    .login:hover {
+        display: flex;
+        align-items: center;
+        color:white;
+        border:none;
+        background-color: transparent;
+        font-family: overpass;
+        font-size: 16px;
+        padding: 0 1em 0 0;
+        cursor: pointer;
+        font-family: overpass;
+    }
+
+    .sign-up:hover {
+        display: flex;
+        align-items: center;
+        color: rgba(255,61,84,1);
+        border:none;
+        background-color: white;
+        padding: 0.5em 1.5em;
+        border-radius: 5em;
+        font-family: overpass;
+        font-weight: bolder;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .main-title h1 {
+        font-size: 50px;
+    }
+
+    .main-title p {
+        font-size: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-01 {
+        display: flex;
+        align-items: center;
+        background-color:#ff8e93cb;
+        border-radius: 5em;
+        font-family: overpass;
+        font-weight: bolder;
+        margin: 0 2em 0 0;
+    }
+
+    .button-01 button {
+        border: none;
+    }
+
+    .button-02 {
+        display: flex;
+        align-items: center;
+        background-color:#ff8e93cb;
+        border-radius: 5em;
+        font-family: overpass;
+        font-weight: bolder;
+        margin: 0 2em 0 0;
+    }
+
+    .button-02 button {}
 
   }
