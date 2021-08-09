@@ -345,6 +345,7 @@ footer {
     align-items: center;
     padding: 1em 0 4em 0;
     opacity: 0.5;
+    list-style: none;
 }
 
 .connect li a {
@@ -357,6 +358,53 @@ footer {
 
 
 
+.nav-links {
+    display: none;
+}
 
 
+@media screen and (min-width: 725px) {
 
+    .burger {
+        display: none;
+    }
+
+    main {
+        padding: 0 8em 0 8em;
+    }
+    
+    .nav-links {
+        width:50%;
+        position: absolute;
+        margin: 0 0 0 7.5em;
+        display: flex;
+    }
+
+    .nav-links ul {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        list-style: none;
+        text-decoration: none;
+
+    }
+
+    .nav-links li {
+        font-family: overpass;
+        list-style: none;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+    }
+
+    .arrow-01 {
+        margin: 0 2em 0 0.5em;
+    }
+
+  }
