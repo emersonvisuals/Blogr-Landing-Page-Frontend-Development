@@ -183,6 +183,11 @@ section.two {
     margin: -16em 0 0 0;
     z-index: -2;
     border-radius: 0 5em 0 8em;
+    background-image: url(/images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size:45em;
+    background-position-x: center;
+    background-position-y: -20em;
 }
 
 .heading-section-two h1 {
@@ -191,7 +196,7 @@ section.two {
     font-weight: bold;
     font-size: 32px;
     color:white;
-    margin: 8em 0 1em 0;
+    margin: 6em 0 1em 0;
 }
 
 .paragraph-section-two p {
@@ -202,12 +207,154 @@ section.two {
     color: white;
     opacity: 0.75;
     line-height: 1.75em;
-    margin: 0 0 5em 0;
+    margin: 0 0 8em 0;
 }
 
 .computer {
     margin: 4em 0;
+    display: flex;
+    justify-content: center;
 }
+
+.heading-section-three-one h1 {
+    text-align: center;
+    font-family: overpass;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0 0 1em 0;
+}
+
+.paragraph-section-three-one {
+    text-align: center;
+    font-family: overpass;
+    font-weight: lighter;
+    font-size: 16px;
+    opacity: 0.75;
+    line-height: 1.75em;
+    margin: 0 0 5em 0;
+    padding: 0 6em;
+}
+
+.heading-section-three-two h1 {
+    text-align: center;
+    font-family: overpass;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0 0 1em 0;
+}
+
+.paragraph-section-three-two {
+    text-align: center;
+    font-family: overpass;
+    font-weight: lighter;
+    font-size: 16px;
+    opacity: 0.75;
+    line-height: 1.75em;
+    margin: 0 0 5em 0;
+    padding: 0 6em;
+}
+
+footer {
+    background-color: hsl(240, 10%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    border-radius: 0 6em 0 0;
+}
+
+
+.logo-footer img {
+    height:auto;
+    width:100px;
+    margin: 4em 0 0 0;
+}
+
+.product h2 {
+    font-family: overpass;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 1em 0 0 0;
+}
+
+.product ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+
+
+.product li a {
+    align-items: center;
+    color: white;
+    font-family: overpass;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 10em;
+    opacity: 0.5;
+}
+
+
+.company h2 {
+    font-family: overpass;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 1em 0 0 0;
+}
+
+.company ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 1em 0;
+    opacity: 0.5;
+}
+
+.company li a {
+    align-items: center;
+    color: white;
+    font-family: overpass;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 10em;
+}
+
+.connect h2 {
+    font-family: overpass;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 1em 0 0 0;
+}
+
+
+.connect ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 4em 0;
+    opacity: 0.5;
+}
+
+.connect li a {
+    align-items: center;
+    color: white;
+    font-family: overpass;
+    list-style: none;
+    text-decoration: none;
+}
+
 
 
 
