@@ -533,6 +533,78 @@ footer {
         margin: 0 2em 0 0;
     }
 
-    .button-02 button {}
+    .image-one {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width:100vw;
+        position: absolute;
+        margin: 0 5em 130em 0;
+        transform: scale(1.2)
 
-  }
+    }
+
+    .section-one-title-02 {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .section-one-title-02 h1 {
+        text-align: left;
+        padding: 0 12em 0 0;
+    }
+
+    .section-one-title-02 p {
+        text-align: left;
+        padding: 0 30em 0 0;
+    }
+
+    .section-one-title-03 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 6em;
+    }
+
+    .section-one-title-03 h1 {
+        text-align: left;
+        padding: 0 12em 0 0;
+    }
+
+    .section-one-title-03 p {
+        text-align: left;
+        padding: 0 30em 0 0;
+    }
+
+    .iphones {
+        justify-content: flex-start;
+        width:100vw;
+        transform: scale(1.2);
+        margin: 0 0 0 25em;
+    }
+
+    section.two {
+        margin: -31em 0 0 0;
+        background-position-x: -5%;
+    }
+
+    .heading-section-two  {
+        margin: 0 0 0 40em;
+    }
+
+    .heading-section-two h1  {
+        text-align: left;
+    }
+
+    .paragraph-section-two  {
+        margin: 0 0 0 40em;
+    }
+
+    .paragraph-section-two p  {
+        text-align: left;
+    }
+
+
+
+
+}
