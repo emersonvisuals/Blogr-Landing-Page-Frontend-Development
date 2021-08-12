@@ -533,14 +533,17 @@ footer {
         margin: 0 2em 0 0;
     }
 
+    section.one {
+        padding:
+    }
+
     .image-one {
         display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
-        width:100vw;
+        justify-content: center;
+        align-items: center;
         position: absolute;
-        margin: 0 5em 130em 0;
-        transform: scale(1.2)
+        margin: 0 0em 122em 75em;
+        transform: scale(1.5);
 
     }
 
@@ -603,8 +606,6 @@ footer {
     .paragraph-section-two p  {
         text-align: left;
     }
-
-
 
 
 }
