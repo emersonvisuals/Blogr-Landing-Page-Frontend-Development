@@ -199,7 +199,12 @@ section.one {
 .iphones {
     display: flex;
     width:auto;
-    transform: scale(0.8)
+    margin: 0 0 3em 0;
+}
+
+.iphones img {
+    width:22em;
+    height:auto;
 }
 
 section.two {
@@ -363,7 +368,6 @@ footer {
     margin: 1em 0 0 0;
 }
 
-
 .connect ul {
     display: flex;
     flex-direction: column;
@@ -382,8 +386,6 @@ footer {
     list-style: none;
     text-decoration: none;
 }
-
-
 
 .nav-links {
     display: none;
@@ -537,8 +539,6 @@ footer {
         margin: 0 2em 0 0;
     }
 
-
-
     .group-01 {
         display: flex;
         flex-direction: row-reverse;
@@ -552,7 +552,6 @@ footer {
     .image-one img {
         transform: scale(1.8);
     }
-
 
     .section-one-title-02 {
         padding: 0 3em 0 8em;
@@ -576,6 +575,40 @@ footer {
     .section-one-title-03 p {
         text-align: left;
     }
+
+    .iphones {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width:100%;
+        margin:5em 0 0 10em;
+    }
+
+    .iphones img {
+        width:45%;
+    }
+
+    section.two {
+        padding: 0 8em 0 8em;
+        margin: -33em 0 0 0;
+    }
+
+    .heading-section-two h1 {
+        text-align: left;
+        margin: 4em 0 1em 0;
+    }
+
+    .paragraph-section-two p {
+        text-align: left;
+    }
+
+    .section-two-content {
+        padding: 0 0 0 55%;
+    }
+
+    
+
+
 
 
   
