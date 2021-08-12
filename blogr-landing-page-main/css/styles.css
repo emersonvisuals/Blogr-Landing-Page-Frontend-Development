@@ -141,9 +141,10 @@ section.one {
     margin: 3em 0 2em 0;
 }
 
-.one img {
-    height:auto;
-    width:475px;
+.image-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-one-title-02 {
@@ -172,6 +173,10 @@ section.one {
 
 }
 
+.section-one-title-03 {
+    padding: 0 6em;
+}
+
 .section-one-title-03 h1 {
     font-family: overpass;
     font-weight: bold;
@@ -188,7 +193,6 @@ section.one {
     opacity: 0.9;
     font-family: overpass;
     margin: 0 0 6em 0;
-    padding: 0 6em;
     text-align: center;
 }
 
@@ -393,7 +397,7 @@ footer {
     display: none;
 }
 
-@media screen and (min-width: 925px) {
+@media screen and (min-width: 1050px) {
 
     .burger {
         display: none;
@@ -533,79 +537,48 @@ footer {
         margin: 0 2em 0 0;
     }
 
-    section.one {
-        padding:
-    }
 
-    .image-one {
+
+    .group-01 {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        margin: 0 0em 122em 75em;
-        transform: scale(1.5);
-
+        flex-direction: row-reverse;
     }
+
+    .image-one  {
+        margin: 0 -20em 0 0;
+        width:215%;
+    }
+
+    .image-one img {
+        transform: scale(1.8);
+    }
+
 
     .section-one-title-02 {
-        display: flex;
-        align-items: flex-start;
+        padding: 0 3em 0 8em;
     }
 
     .section-one-title-02 h1 {
         text-align: left;
-        padding: 0 12em 0 0;
     }
 
     .section-one-title-02 p {
         text-align: left;
-        padding: 0 30em 0 0;
     }
-
     .section-one-title-03 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0 6em;
+        padding: 0 3em 0 8em;
     }
 
     .section-one-title-03 h1 {
         text-align: left;
-        padding: 0 12em 0 0;
     }
 
     .section-one-title-03 p {
         text-align: left;
-        padding: 0 30em 0 0;
     }
 
-    .iphones {
-        justify-content: flex-start;
-        width:100vw;
-        transform: scale(1.2);
-        margin: 0 0 0 25em;
-    }
 
-    section.two {
-        margin: -31em 0 0 0;
-        background-position-x: -5%;
-    }
-
-    .heading-section-two  {
-        margin: 0 0 0 40em;
-    }
-
-    .heading-section-two h1  {
-        text-align: left;
-    }
-
-    .paragraph-section-two  {
-        margin: 0 0 0 40em;
-    }
-
-    .paragraph-section-two p  {
-        text-align: left;
-    }
+  
 
 
 }
