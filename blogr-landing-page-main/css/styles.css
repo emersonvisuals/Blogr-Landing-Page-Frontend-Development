@@ -430,17 +430,27 @@ footer {
         list-style: none;
         text-decoration: none;
         font-size: 14px;
-    }
-
-    .nav-links a {
         color: white;
         text-decoration: none;
         list-style: none;
         font-size: 14px;
+        cursor: pointer;
     }
+
 
     .arrow-01 {
         margin: 0 2em 0 0.5em;
+        transition: 0.3s all;
+    }
+
+    .arrow-02 {
+        margin: 0 2em 0 0.5em;
+        transition: 0.3s all;
+    }
+
+    .arrow-03 {
+        margin: 0 2em 0 0.5em;
+        transition: 0.3s all;
     }
 
     .buttons-desktop {
@@ -643,7 +653,7 @@ footer {
         text-align: left;
         padding:0;
     }
-    
+
 
     footer {
         flex-direction: row;
@@ -692,6 +702,11 @@ footer {
         text-align: left;
     }
 
+    .product li a:hover {
+        border-bottom: 2px solid white;
+    }
+
+
     .company {
         padding:0;
         margin:0;
@@ -718,6 +733,11 @@ footer {
         margin:0;
         text-align: left;
     }
+
+    .company li a:hover {
+        border-bottom: 2px solid white;
+    }
+
 
     .connect {
         padding: 0;
@@ -746,6 +766,20 @@ footer {
         margin:0;
         text-align: left;
     }
+
+    .connect li a:hover {
+        border-bottom: 2px solid white;
+    }
+
+
+
+
+
+    .arrow-active {
+        transform: rotate(180deg);
+        transition: 0.3s all;
+    }
+
 
 
 
