@@ -643,7 +643,109 @@ footer {
         text-align: left;
         padding:0;
     }
+    
 
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin:0;
+        padding:10em 15em 10em 8em;
+    }
+
+    .logo-footer {
+        padding:0;
+        margin:0;
+    }
+
+    .logo-footer img {
+        padding:0;
+        margin:0;
+    }
+
+    .product {
+        padding:0;
+        margin:0;
+        text-align: left;
+    }
+
+    .product h2 {
+        padding:0;
+        margin:0;
+        text-align: left;
+    }
+
+    .product ul {
+        padding:0;
+        margin: 2em 0 0 0;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .product li {
+        margin: 0.3em 0;
+    }
+
+    .product li a {
+        padding:0;
+        margin:0;
+        text-align: left;
+    }
+
+    .company {
+        padding:0;
+        margin:0;
+    }
+
+    .company h2 {
+        padding:0;
+        margin:0;
+        text-align: left;
+    }
+
+    .company ul {
+        padding:0;
+        margin:2em 0 0 0;;
+        align-items: flex-start;
+    }
+
+    .company li {
+        padding: 0.3em 0;
+    }
+
+    .company li a {
+        padding:0;
+        margin:0;
+        text-align: left;
+    }
+
+    .connect {
+        padding: 0;
+        margin:0;
+    }
+
+    .connect h2 {
+        padding:0;
+        margin:0;
+        text-align: left;
+    }
+
+    .connect ul {
+        padding:0;
+        margin: 2em 0 0 0;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .connect li {
+        margin: 0.3em 0;
+    }
+
+    .connect li a {
+        padding:0;
+        margin:0;
+        text-align: left;
+    }
 
 
 
