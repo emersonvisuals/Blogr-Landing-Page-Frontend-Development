@@ -591,6 +591,8 @@ footer {
     section.two {
         padding: 0 8em 0 8em;
         margin: -33em 0 0 0;
+        background-position-x: 4em;
+        background-position-y: -20em;
     }
 
     .heading-section-two h1 {
@@ -605,6 +607,48 @@ footer {
     .section-two-content {
         padding: 0 0 0 55%;
     }
+
+
+    section.three {
+        padding: 10em 0 10em 0;
+        background-image: url(/images/illustration-laptop-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-position-x: -20em;
+        background-size: 55em;
+    }
+
+    .computer {
+        display: none;
+    }
+
+    .section-three-content {
+        padding: 0 8em 0 55%;
+    }
+
+    .heading-section-three-one h1 {
+        text-align: left;
+    }
+
+    .paragraph-section-three-one {
+        text-align: left;
+        padding:0;
+    }
+
+    .heading-section-three-two h1 {
+        text-align: left;
+    }
+
+    .paragraph-section-three-two {
+        text-align: left;
+        padding:0;
+    }
+
+
+
+
+
+
 
     
 
