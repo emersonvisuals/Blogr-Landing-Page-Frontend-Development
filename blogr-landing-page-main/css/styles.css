@@ -865,6 +865,11 @@ footer {
         transition: 0.3s all;
     }
 
+    .arrow-active {
+        transform: rotate(-180deg);
+        transition: 0.3s all;
+    }
+
 
 
 

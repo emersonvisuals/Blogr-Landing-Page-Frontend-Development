@@ -8,10 +8,10 @@ const productsOn = () => {
         productsArrow.classList.toggle('arrow-active');
         productsDropdown.classList.toggle('products-dropdown-active');
     });
+    
 }
 
-productsOn();
-
+productsOn(); 
 
 
 
