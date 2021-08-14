@@ -34,6 +34,17 @@ main {
     transition: 0.3s all;
 }
 
+#stroke {
+    content: '';
+    position: absolute;
+    width:40px;
+    height:3px;
+    background-color: #fff;
+    transform: translateY(0px);
+    transition: 0.3s all;
+    opacity: 100%;
+}
+
 #burger::before {
     content: '';
     position: absolute;
@@ -395,6 +406,8 @@ footer {
 }
 
 #stroke.active {
+    opacity: 0%;
+    transition: 0.3s all;
 }
 
 #burger.active::before{
@@ -421,7 +434,7 @@ footer {
 
 @media screen and (min-width: 1050px) {
 
-    .burger {
+    #burger {
         display: none;
     }
 
@@ -854,4 +867,3 @@ footer {
         transition: 0.3s all;
     }
 
-    
