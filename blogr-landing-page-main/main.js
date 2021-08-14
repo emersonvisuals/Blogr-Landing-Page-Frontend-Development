@@ -3,16 +3,27 @@ const productsOn = () => {
     const products = document.querySelector('.products');
     const productsArrow = document.querySelector('.arrow-01');
     const productsDropdown = document.querySelector('.products-dropdown');
+    const company = document.querySelector('.company');
+    const connect = document.querySelector('.connect');
 
     products.addEventListener('click',() => {
         productsArrow.classList.toggle('arrow-active');
         productsDropdown.classList.toggle('products-dropdown-active');
     });
+
+    company.addEventListener('click',() => {
+        productsArrow.classList.remove('arrow-active');
+        productsDropdown.classList.remove('products-dropdown-active');
+    });
+
+    connect.addEventListener('click',() => {
+        productsArrow.classList.remove('arrow-active');
+        productsDropdown.classList.remove('products-dropdown-active');
+    });
     
 }
 
 productsOn(); 
-
 
 
 // active Company
@@ -47,3 +58,4 @@ const connectOn = () => {
 }
 
 connectOn();
+
