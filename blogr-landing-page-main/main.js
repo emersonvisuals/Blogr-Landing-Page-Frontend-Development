@@ -82,3 +82,15 @@ const connectOn = () => {
 
 connectOn();
 
+
+// mobile burger 
+
+const burger = document.getElementById('burger');
+const stroke = document.getElementById('stroke');
+
+console.log(burger);
+
+burger.onclick = function() {
+    burger.classList.toggle('active');
+    stroke.classList.toggle('active');
+}
