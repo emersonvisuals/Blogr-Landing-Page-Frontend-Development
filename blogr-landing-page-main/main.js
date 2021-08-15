@@ -87,10 +87,17 @@ connectOn();
 
 const burger = document.getElementById('burger');
 const stroke = document.getElementById('stroke');
+const menu = document.getElementById('menu-mobile');
 
 console.log(burger);
 
 burger.onclick = function() {
     burger.classList.toggle('active');
     stroke.classList.toggle('active');
+    menu.classList.toggle('active');
 }
+
+
+
+
+
