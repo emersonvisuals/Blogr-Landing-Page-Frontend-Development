@@ -329,7 +329,6 @@ footer {
 }
 
 
-
 .product li a {
     align-items: center;
     color: white;
@@ -463,6 +462,49 @@ footer {
     color:black;
     opacity: 75%;
 }
+
+li.products-mobile::after {
+    content: '';
+    position: absolute;
+    width:1.25rem;
+    height:1.25rem;
+    background-image: url(/images/icon-arrow-dark.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s all;
+    transform: translateY(3px);
+    margin: 0 0 0 1em;
+}
+
+li.company-mobile::after {
+    content: '';
+    position: absolute;
+    width:1.25rem;
+    height:1.25rem;
+    background-image: url(/images/icon-arrow-dark.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s all;
+    transform: translateY(3px);
+    margin: 0 0 0 1em;
+}
+
+li.connect-mobile::after {
+    content: '';
+    position: absolute;
+    width:1.25rem;
+    height:1.25rem;
+    background-image: url(/images/icon-arrow-dark.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s all;
+    transform: translateY(3px);
+    margin: 0 0 0 1em;
+}
+
+
+
+
 
 
 
