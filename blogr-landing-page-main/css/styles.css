@@ -566,7 +566,7 @@ footer {
 }
 
 #company-collapse.active {
-    height:125px;
+    height:150px;
     overflow:hidden;
     margin: 1em 0;
     background-color: #efeff1;
