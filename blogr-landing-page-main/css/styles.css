@@ -209,12 +209,12 @@ section.one {
 .iphones {
     display: flex;
     width:auto;
-    margin: 0 0 3em 0;
+    margin: 0 0 1.5em 0;
     z-index: 1;
 }
 
 .iphones img {
-    width:22em;
+    width:23em;
     height:auto;
     z-index: 1;
 }
