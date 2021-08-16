@@ -83,8 +83,7 @@ const connectOn = () => {
 connectOn();
 
 
-// mobile burger 
-
+// Mobile Burger 
 const burger = document.getElementById('burger');
 const stroke = document.getElementById('stroke');
 const menu = document.getElementById('menu-mobile');
@@ -96,6 +95,51 @@ burger.onclick = function() {
     stroke.classList.toggle('active');
     menu.classList.toggle('active');
 }
+
+// Product Accordian 
+const productsMobile = document.getElementById('products-mobile');
+const productsMenu = document.getElementById('products-collapse');
+
+productsMobile.onclick = function() {
+    productsMenu.classList.toggle('active');
+}
+
+document.onclick = function(clickEvent) {
+    if(clickEvent.target.id == 'company-mobile' || clickEvent.target.id == 'connect-mobile')
+    {
+        productsMenu.classList.remove('active');
+    }
+
+    if(clickEvent.target.id == 'products-mobile' || clickEvent.target.id == 'connect-mobile')
+    {
+        companyMenu.classList.remove('active');
+    }
+
+    if(clickEvent.target.id == 'products-mobile' || clickEvent.target.id == 'company-mobile')
+    {
+        connectMenu.classList.remove('active');
+    }
+
+}
+
+
+// Company Accordian 
+const companyMobile = document.getElementById('company-mobile');
+const companyMenu = document.getElementById('company-collapse');
+
+companyMobile.onclick = function() {
+    companyMenu.classList.toggle('active');
+}
+
+// Connect Accordian 
+const connectMobile = document.getElementById('connect-mobile');
+const connectMenu = document.getElementById('connect-collapse');
+
+connectMobile.onclick = function() {
+    connectMenu.classList.toggle('active');
+}
+
+
 
 
 
