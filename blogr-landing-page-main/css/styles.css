@@ -9,10 +9,11 @@
 }
 
 main {
-    background: rgb(255,143,112);
+    background-image: url(/images/bg-pattern-intro.svg);
     background: linear-gradient(180deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 100%);
+    background-repeat: no-repeat;
     padding: 0;
-    border-radius: 0 0 0 10em;
+    border-radius: 0 0 0 8em;
 }
 
 .header {
@@ -70,7 +71,7 @@ main {
 .main-title h1 {
     text-align: center;
     color:white;
-    margin: 2em 0 0 0;
+    margin: 2em 0.75em 0 0.75em;
     font-family:overpass;
     font-size: 40px;
 }
@@ -82,7 +83,7 @@ main {
     font-weight: 300;
     font-size: 22px;
     opacity: 0.9;
-    margin: 1em 0 0 0;
+    margin: 1em 0.75em 0 0.75em;
 }
 
 .buttons-main {
@@ -91,7 +92,7 @@ main {
     justify-content: center;
     display: flex;
     flex-direction: row;
-    margin: 5em 0;
+    margin: 3em 0 10em 0.75em;
 }
 
 .button-01 {
@@ -133,6 +134,7 @@ button.button-02:hover {
     transition: 0.5s all;
 }
 
+
 section.one {
     display: flex;
     flex-direction: column;
@@ -159,7 +161,7 @@ section.one {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0 6em;
+    padding: 0 3em;
 }
 
 .section-one-title-02 h1 {
@@ -182,7 +184,7 @@ section.one {
 }
 
 .section-one-title-03 {
-    padding: 0 6em;
+    padding: 0 3em;
 }
 
 .section-one-title-03 h1 {
@@ -208,20 +210,22 @@ section.one {
     display: flex;
     width:auto;
     margin: 0 0 3em 0;
+    z-index: 1;
 }
 
 .iphones img {
     width:22em;
     height:auto;
+    z-index: 1;
 }
 
 section.two {
     background-color: hsl(237, 23%, 32%);
     width:100vw;
     height:auto;
-    padding: 0 6em;
+    padding: 0 3em;
     margin: -16em 0 0 0;
-    z-index: -2;
+    z-index: -1;
     border-radius: 0 5em 0 8em;
     background-image: url(/images/bg-pattern-circles.svg);
     background-repeat: no-repeat;
@@ -234,9 +238,9 @@ section.two {
     text-align: center;
     font-family: overpass;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 40px;
     color:white;
-    margin: 6em 0 1em 0;
+    margin: 5em 0 1em 0;
 }
 
 .paragraph-section-two p {
@@ -272,7 +276,7 @@ section.two {
     opacity: 0.75;
     line-height: 1.75em;
     margin: 0 0 5em 0;
-    padding: 0 6em;
+    padding: 0 3em;
 }
 
 .heading-section-three-two h1 {
@@ -291,7 +295,7 @@ section.two {
     opacity: 0.75;
     line-height: 1.75em;
     margin: 0 0 5em 0;
-    padding: 0 6em;
+    padding: 0 3em;
 }
 
 footer {
@@ -308,7 +312,7 @@ footer {
 .logo-footer img {
     height:auto;
     width:100px;
-    margin: 4em 0 0 0;
+    margin: 4em 0 2em 0;
 }
 
 .product h2 {
@@ -335,10 +339,8 @@ footer {
     font-family: overpass;
     list-style: none;
     text-decoration: none;
-    margin: 0 10em;
     opacity: 0.5;
 }
-
 
 .company h2 {
     font-family: overpass;
@@ -435,7 +437,7 @@ footer {
 
 #menu-mobile.active {
     padding: 2em;
-    height:500px;
+    height:550px;
     transition: 0.5s all;
     z-index: 1;
     opacity: 100%;
