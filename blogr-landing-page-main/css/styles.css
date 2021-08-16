@@ -202,7 +202,7 @@ section.one {
     font-size: 16px;
     opacity: 0.9;
     font-family: overpass;
-    margin: 0 0 2em 0;
+    margin: 0 0 1em 0;
     text-align: center;
 }
 
@@ -224,14 +224,14 @@ section.two {
     width:100vw;
     height:auto;
     padding: 0 3em;
-    margin: -16em 0 0 0;
+    margin: -20em 0 0 0;
     z-index: -1;
     border-radius: 0 5em 0 8em;
     background-image: url(/images/bg-pattern-circles.svg);
     background-repeat: no-repeat;
     background-size:45em;
     background-position-x: center;
-    background-position-y: -20em;
+    background-position-y: -18em;
 }
 
 .heading-section-two h1 {
@@ -240,7 +240,7 @@ section.two {
     font-weight: bold;
     font-size: 40px;
     color:white;
-    margin: 5em 0 1em 0;
+    margin: 7em 0 0.5em 0;
 }
 
 .paragraph-section-two p {
@@ -762,10 +762,11 @@ button.sign-up-mobile {
     .image-one  {
         margin: 0 -20em 0 0;
         width:215%;
+        height:600px;
     }
 
     .image-one img {
-        transform: scale(1.8);
+        transform: scale(1.6);
     }
 
     .section-one-title-02 {
@@ -810,13 +811,20 @@ button.sign-up-mobile {
         background-position-y: -20em;
     }
 
+
     .heading-section-two h1 {
         text-align: left;
-        margin: 4em 0 1em 0;
+        margin: 4em 0 0.25em 0;
+    }
+
+    .paragraph-section-two {
+        text-align: left;
+        margin: 0 0 4em 0;
     }
 
     .paragraph-section-two p {
         text-align: left;
+        margin: 0 0 3em 0;
     }
 
     .section-two-content {
