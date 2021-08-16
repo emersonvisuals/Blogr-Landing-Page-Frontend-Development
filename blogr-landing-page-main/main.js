@@ -88,8 +88,6 @@ const burger = document.getElementById('burger');
 const stroke = document.getElementById('stroke');
 const menu = document.getElementById('menu-mobile');
 
-console.log(burger);
-
 burger.onclick = function() {
     burger.classList.toggle('active');
     stroke.classList.toggle('active');
@@ -102,26 +100,8 @@ const productsMenu = document.getElementById('products-collapse');
 
 productsMobile.onclick = function() {
     productsMenu.classList.toggle('active');
+    productsMobile.classList.toggle('active');
 }
-
-document.onclick = function(clickEvent) {
-    if(clickEvent.target.id == 'company-mobile' || clickEvent.target.id == 'connect-mobile')
-    {
-        productsMenu.classList.remove('active');
-    }
-
-    if(clickEvent.target.id == 'products-mobile' || clickEvent.target.id == 'connect-mobile')
-    {
-        companyMenu.classList.remove('active');
-    }
-
-    if(clickEvent.target.id == 'products-mobile' || clickEvent.target.id == 'company-mobile')
-    {
-        connectMenu.classList.remove('active');
-    }
-
-}
-
 
 // Company Accordian 
 const companyMobile = document.getElementById('company-mobile');
@@ -129,6 +109,7 @@ const companyMenu = document.getElementById('company-collapse');
 
 companyMobile.onclick = function() {
     companyMenu.classList.toggle('active');
+    companyMobile.classList.toggle('active');
 }
 
 // Connect Accordian 
@@ -137,8 +118,31 @@ const connectMenu = document.getElementById('connect-collapse');
 
 connectMobile.onclick = function() {
     connectMenu.classList.toggle('active');
+    connectMobile.classList.toggle('active');
 }
 
+
+// Turning off function
+document.onclick = function(clickEvent) {
+    if(clickEvent.target.id == 'company-mobile' || clickEvent.target.id == 'connect-mobile' || clickEvent.target.id == 'burger')
+    {
+        productsMenu.classList.remove('active');
+        productsMobile.classList.remove('active');
+    } 
+
+    if(clickEvent.target.id == 'products-mobile' || clickEvent.target.id == 'connect-mobile' || clickEvent.target.id == 'burger')
+    {
+        companyMenu.classList.remove('active');
+        companyMobile.classList.remove('active');
+    }
+
+    if(clickEvent.target.id == 'products-mobile' || clickEvent.target.id == 'company-mobile' || clickEvent.target.id == 'burger')
+    {
+        connectMenu.classList.remove('active');
+        connectMobile.classList.remove('active');
+    }
+
+}
 
 
 
