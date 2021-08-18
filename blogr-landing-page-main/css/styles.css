@@ -9,9 +9,10 @@
 }
 
 main {
-    background-image: url(/images/bg-pattern-intro.svg);
-    background: linear-gradient(180deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 100%);
+    background: url(/images/bg-pattern-intro.svg),  linear-gradient(180deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 100%);;
     background-repeat: no-repeat;
+    background-size: 350%;
+    background-position: center;
     padding: 0;
     border-radius: 0 0 0 8em;
 }
