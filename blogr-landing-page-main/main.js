@@ -146,6 +146,9 @@ document.onclick = function(clickEvent) {
 // Image Animations
 
 const imageOne = document.getElementById('image-one');
+const groupOne = document.getElementById('section-one-title-02');
+const groupTwo = document.getElementById('section-one-title-03')
+const imageTwo = document.querySelector('section#three');
 const faders = document.querySelector('.fade-in');
 
 const appearOptions = { 
@@ -165,6 +168,10 @@ const appearOnScroll = new IntersectionObserver(function(entires, appearOnScroll
 }, appearOptions);
 
 appearOnScroll.observe(imageOne);
+appearOnScroll.observe(groupOne);
+appearOnScroll.observe(groupTwo);
+appearOnScroll.observe(imageTwo);
+
 
 
 
