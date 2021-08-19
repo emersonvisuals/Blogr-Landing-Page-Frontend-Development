@@ -149,13 +149,24 @@ section.one {
     text-align: center;
     font-size: 32px;
     color: hsl(208, 49%, 24%);
-    margin: 3em 0 2em 0;
+    margin: 3em 0 1em 0;
 }
 
-.image-one {
+#image-one {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0%;
+}
+
+.fade-in {
+    opacity: 100%;
+    transition: 1s all;
+}
+
+#image-one.fade-in {
+    transition: 1s all;
+    opacity: 100%;
 }
 
 .section-one-title-02 {
@@ -256,10 +267,11 @@ section.two {
 }
 
 .computer {
-    margin: 4em 0;
+    margin: 3em 0;
     display: flex;
     justify-content: center;
 }
+
 
 .heading-section-three-one h1 {
     text-align: center;
@@ -333,6 +345,10 @@ footer {
     padding: 1em 0 1em 0;
 }
 
+.product li {
+    margin: 0.3em 0;
+}
+
 
 .product li a {
     align-items: center;
@@ -342,6 +358,11 @@ footer {
     text-decoration: none;
     opacity: 0.5;
 }
+
+.product li a:hover {
+    border-bottom: 2px solid white;
+}
+
 
 .company h2 {
     font-family: overpass;
@@ -370,6 +391,14 @@ footer {
     margin: 0 10em;
 }
 
+.company li {
+    margin: 0.3em 0;
+}
+
+.company li a:hover {
+    border-bottom: 2px solid white;
+}
+
 .connect h2 {
     font-family: overpass;
     text-align: center;
@@ -395,6 +424,14 @@ footer {
     font-family: overpass;
     list-style: none;
     text-decoration: none;
+}
+
+.connect li {
+    margin: 0.3em 0;
+}
+
+.connect li a:hover {
+    border-bottom: 2px solid white;
 }
 
 .nav-links {
@@ -721,7 +758,7 @@ button.sign-up-mobile {
         font-family: overpass;
         font-size: 16px;
         padding: 0 1em 0 0;
-        opacity: 1;
+        cursor: pointer;
     }
 
     .sign-up {
@@ -743,7 +780,7 @@ button.sign-up-mobile {
         transition: 0.5s all;
     }
 
-    .login:hover{
+    button.login {
         cursor: pointer;
     }
 
@@ -760,13 +797,13 @@ button.sign-up-mobile {
         flex-direction: row-reverse;
     }
 
-    .image-one  {
+    #image-one  {
         margin: 0 -20em 0 0;
         width:215%;
         height:600px;
     }
 
-    .image-one img {
+    #image-one img {
         transform: scale(1.6);
     }
 
@@ -939,7 +976,7 @@ button.sign-up-mobile {
     }
 
     .company li {
-        padding: 0.3em 0;
+        margin: 0.3em 0;
     }
 
     .company li a {
@@ -1091,3 +1128,4 @@ button.sign-up-mobile {
         transition: 0.3s all;
     }
 
+    

@@ -24,7 +24,6 @@ const productsOn = () => {
 
 productsOn(); 
 
-
 // active Company
 const companyOn = () => {
     const company = document.querySelector('.company');
@@ -50,7 +49,6 @@ const companyOn = () => {
 }
 
 companyOn();
-
 
 
 //active Connect 
@@ -145,7 +143,28 @@ document.onclick = function(clickEvent) {
 }
 
 
+// Image Animations
 
+const imageOne = document.getElementById('image-one');
+const faders = document.querySelector('.fade-in');
+
+const appearOptions = { 
+    threshold: 0.5
+};
+
+const appearOnScroll = new IntersectionObserver(function(entires, appearOnScroll) {
+    entires.forEach(entry => {
+        if (!entry.isIntersecting){
+            return;
+        } else {
+            entry.target.classList.add('fade-in');
+            appearOnScroll.unobserve(entry.target); // stop looking once done the job
+        }
+        console.log(entry);
+    })
+}, appearOptions);
+
+appearOnScroll.observe(imageOne);
 
 
 
