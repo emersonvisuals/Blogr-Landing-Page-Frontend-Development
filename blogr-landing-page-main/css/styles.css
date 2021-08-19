@@ -156,7 +156,7 @@ section.one {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 100%;
+    opacity: 0%;
 }
 
 #image-one.fade-in {
@@ -172,7 +172,7 @@ section.one {
     flex-direction: column;
     text-align: center;
     padding: 0 3em;
-    opacity: 100%;
+    opacity: 0%;
 }
 
 #section-one-title-02.fade-in {
@@ -201,7 +201,7 @@ section.one {
 
 #section-one-title-03 {
     padding: 0 3em;
-    opacity: 100%;
+    opacity: 0%;
 }
 
 
@@ -285,7 +285,7 @@ section.two {
 }
 
 #three {
-    opacity: 100%;
+    opacity: 0%;
 }
 
 #three.fade-in {
@@ -898,7 +898,7 @@ button.sign-up-mobile {
         background-position: center left;
         background-position-x: -20em;
         background-size: 55em;
-        opacity: 100%;
+        opacity: 0%;
     }
 
     section#three.fade-in {
